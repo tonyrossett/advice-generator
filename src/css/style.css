@@ -1,0 +1,57 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--background-color);
+}
+
+.painel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.conselho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    margin: 20px;
+    width: 360px;
+    
+}
+
+.conselho .conselho-num{
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.conselho .descr-conselho{
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color: var(--text-color);
+    
+}
+
+.conselho .atualiza-conselho{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.conselho .atualiza-conselho:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
