@@ -15,3 +15,5 @@ async function getAdvice() {
 adviceUpdateButton.addEventListener("click", getAdvice);
 
 getAdvice();
+
+// Criado em 06/11/2023
